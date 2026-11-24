@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fan with IR waves. Everything stays inside the 66dp adaptive-icon safe zone (21..87). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:pivotX="50.0" android:pivotY="60.0" android:rotation="0">
+        <path android:fillColor="#FFFFFFFF" android:pathData="M50.00,60.00 C47.20,54.40 44.40,44.32 49.44,39.28 C53.92,34.80 60.64,38.72 59.52,46.00 C58.40,52.16 53.92,56.64 50.00,60.00 Z" />
+    </group>
+    <group android:pivotX="50.0" android:pivotY="60.0" android:rotation="120">
+        <path android:fillColor="#FFFFFFFF" android:pathData="M50.00,60.00 C47.20,54.40 44.40,44.32 49.44,39.28 C53.92,34.80 60.64,38.72 59.52,46.00 C58.40,52.16 53.92,56.64 50.00,60.00 Z" />
+    </group>
+    <group android:pivotX="50.0" android:pivotY="60.0" android:rotation="240">
+        <path android:fillColor="#FFFFFFFF" android:pathData="M50.00,60.00 C47.20,54.40 44.40,44.32 49.44,39.28 C53.92,34.80 60.64,38.72 59.52,46.00 C58.40,52.16 53.92,56.64 50.00,60.00 Z" />
+    </group>
+    <path android:fillColor="#FFFFFFFF" android:pathData="M44.5,60.0 a5.5,5.5 0 1,0 11,0 a5.5,5.5 0 1,0 -11,0 Z" />
+    <path android:fillColor="#FF4F46E5" android:pathData="M47.5,60.0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0 Z" />
+    <path android:strokeColor="#FFFFFFFF" android:strokeWidth="3" android:strokeLineCap="round" android:pathData="M63.56,38.14 A9,9 0 0,1 70.86,45.44" />
+    <path android:strokeColor="#CCFFFFFF" android:strokeWidth="3" android:strokeLineCap="round" android:pathData="M64.60,32.23 A15,15 0 0,1 76.77,44.40" />
+    <path android:strokeColor="#88FFFFFF" android:strokeWidth="3" android:strokeLineCap="round" android:pathData="M65.47,27.30 A20,20 0 0,1 81.70,43.53" />
+</vector>

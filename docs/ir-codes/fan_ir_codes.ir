@@ -1,0 +1,416 @@
+Filetype: IR signals file
+Version: 1
+#
+name: Atomberg_Power
+type: parsed
+protocol: NECext
+address: 00 F3 00 00
+command: 91 00 00 00
+#
+name: Atomberg_Speed_1
+type: parsed
+protocol: NECext
+address: 00 F3 00 00
+command: 8B 00 00 00
+#
+name: Atomberg_Speed_2
+type: parsed
+protocol: NECext
+address: 00 F3 00 00
+command: 90 00 00 00
+#
+name: Atomberg_Speed_3
+type: parsed
+protocol: NECext
+address: 00 F3 00 00
+command: 8A 00 00 00
+#
+name: Atomberg_Speed_4
+type: parsed
+protocol: NECext
+address: 00 F3 00 00
+command: 93 00 00 00
+#
+name: Atomberg_Speed_5
+type: parsed
+protocol: NECext
+address: 00 F3 00 00
+command: 88 00 00 00
+#
+name: Atomberg_Boost_(B_center)
+type: parsed
+protocol: NECext
+address: 00 F3 00 00
+command: 8F 00 00 00
+#
+name: Atomberg_Timer
+type: parsed
+protocol: NECext
+address: 00 F3 00 00
+command: 96 00 00 00
+#
+name: Atomberg_LED
+type: parsed
+protocol: NECext
+address: 00 F3 00 00
+command: 97 00 00 00
+#
+name: Atomberg_Sleep
+type: parsed
+protocol: NECext
+address: 00 F3 00 00
+command: 8E 00 00 00
+#
+name: Activa_Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+#
+name: Activa_Nature
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 43 00 00 00
+#
+name: Activa_Smart
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+#
+name: Activa_Speed_1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 08 00 00 00
+#
+name: Activa_Speed_2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+#
+name: Activa_Speed_3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5A 00 00 00
+#
+name: Activa_Speed_4
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+#
+name: Activa_Speed_5
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 42 00 00 00
+#
+name: Activa_Speed_6
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 00 00 00 00
+#
+name: Activa_Boost
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1C 00 00 00
+#
+name: Activa_Light_On-Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 44 00 00 00
+#
+name: Activa_Timer_Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+#
+name: Activa_Reverse
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+#
+name: Activa_2H
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 46 00 00 00
+#
+name: Activa_4H
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 47 00 00 00
+#
+name: Activa_8H
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 48 00 00 00
+#
+name: Orient_On
+type: parsed
+protocol: NEC
+address: 8C 00 00 00
+command: 00 00 00 00
+#
+name: Orient_Off
+type: parsed
+protocol: NEC
+address: 8C 00 00 00
+command: 10 00 00 00
+#
+name: Orient_Speed_1
+type: parsed
+protocol: NEC
+address: 8C 00 00 00
+command: 04 00 00 00
+#
+name: Orient_Speed_2
+type: parsed
+protocol: NEC
+address: 8C 00 00 00
+command: 05 00 00 00
+#
+name: Orient_Speed_3
+type: parsed
+protocol: NEC
+address: 8C 00 00 00
+command: 06 00 00 00
+#
+name: Orient_Speed_4
+type: parsed
+protocol: NEC
+address: 8C 00 00 00
+command: 07 00 00 00
+#
+name: Orient_Speed_5
+type: parsed
+protocol: NEC
+address: 8C 00 00 00
+command: 08 00 00 00
+#
+name: Orient_Speed_(center)
+type: parsed
+protocol: NEC
+address: 8C 00 00 00
+command: 03 00 00 00
+#
+name: Orient_2H
+type: parsed
+protocol: NEC
+address: 8C 00 00 00
+command: 15 00 00 00
+#
+name: Orient_4H
+type: parsed
+protocol: NEC
+address: 8C 00 00 00
+command: 0E 00 00 00
+#
+name: Orient_6H
+type: parsed
+protocol: NEC
+address: 8C 00 00 00
+command: 16 00 00 00
+#
+name: Orient_8H
+type: parsed
+protocol: NEC
+address: 8C 00 00 00
+command: 11 00 00 00
+#
+name: Orient_LED
+type: parsed
+protocol: NEC
+address: 8C 00 00 00
+command: 13 00 00 00
+#
+name: Orient_Boost
+type: parsed
+protocol: NEC
+address: 8C 00 00 00
+command: 0F 00 00 00
+#
+name: Innoel_POWER
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 08 00 00 00
+#
+name: Innoel_LED
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 07 00 00 00
+#
+name: Innoel_1
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 01 00 00 00
+#
+name: Innoel_2
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 02 00 00 00
+#
+name: Innoel_3
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 03 00 00 00
+#
+name: Innoel_4
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 04 00 00 00
+#
+name: Innoel_5
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 05 00 00 00
+#
+name: Innoel_6
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 15 00 00 00
+#
+name: Innoel_MAX
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 06 00 00 00
+#
+name: Innoel_2H
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 09 00 00 00
+#
+name: Innoel_4H
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 10 00 00 00
+#
+name: Innoel_8H
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 12 00 00 00
+#
+name: Innoel_SMT
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 14 00 00 00
+#
+name: Innoel_REV
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 13 00 00 00
+#
+name: Walton_POWER
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 08 00 00 00
+#
+name: Walton_LED
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 07 00 00 00
+#
+name: Walton_1
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 01 00 00 00
+#
+name: Walton_2
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 02 00 00 00
+#
+name: Walton_3
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 03 00 00 00
+#
+name: Walton_4
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 04 00 00 00
+#
+name: Walton_5
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 05 00 00 00
+#
+name: Walton_6
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 15 00 00 00
+#
+name: Walton_7
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 13 00 00 00
+#
+name: Walton_REV
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 12 00 00 00
+#
+name: Walton_2H
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 09 00 00 00
+#
+name: Walton_4H
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 10 00 00 00
+#
+name: Walton_6H
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 00 00 00 00
+#
+name: Walton_8H
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 00 00 00 00
+#
+name: Walton_ECO
+type: parsed
+protocol: NECext
+address: D8 7E 00 00
+command: 14 00 00 00
